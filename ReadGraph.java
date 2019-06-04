@@ -21,6 +21,7 @@ public class ReadGraph
 	
 	public static void main( String args[] )
 	{
+		// the graph to read should be the argument when run from the command line
 		if( args.length < 1 )
 		{
 			System.out.println("Error! No filename specified.");
